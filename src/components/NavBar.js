@@ -34,8 +34,8 @@ function NavBar() {
                 navbarScroll
             >
                 
-                <Nav.Link href="#action1">Inicio</Nav.Link>
-                <Nav.Link href="equipo">Equipo</Nav.Link>
+                <Nav.Link href="/home">Inicio</Nav.Link>
+                <Nav.Link href="/equipo">Equipo</Nav.Link>
                 <Nav.Link href="pack">Pack logopedia</Nav.Link>
                 <Nav.Link href="consultas">Consultas</Nav.Link>
                 <Nav.Link href="contacto">Contacto</Nav.Link>

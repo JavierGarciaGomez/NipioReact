@@ -7,6 +7,7 @@ import terapia from '../assets/images/TerapiaEnFamilia.png';
 import juego from '../assets/images/LOGOPEDIA A TRAVÉS DEL JUEGO.png';
 import web from '../assets/images/FOTOS WEB principal.png';
 import 'bootstrap/dist/css/bootstrap.css';
+import Slider from "./Slider";
 
 class Body extends Component {
 
@@ -14,6 +15,12 @@ class Body extends Component {
 
         return(
         <div>
+            <section>
+                        <Slider
+                        title="NI PÍO_LOGOPEDIA"
+                        subtitle="ESPECIALISTAS EN LA COMUNICACIÓN"
+                        />
+                </section>
             <section className="consiste">
                 <div className="consiste-logopedia">
                     <h2>¿En qué consiste la Logopedia Online?</h2>
