@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import logo from '../assets/images/logo ni pio  circulo turquesa.png';
 import mujerNina from '../assets/images/mujerNina.png';
 import ninoBeso from '../assets/images/nino-beso.png';
+import SlidersPacks from "./SliderPacks";
 
 class  Packs extends Component {
 
@@ -12,19 +13,7 @@ class  Packs extends Component {
             <body className="menu-video">
     
             <main>
-               
-                <section className="video-container">
-                        
-                    <div className="video-pack">
-                            <video className="videoss" src="../public/videos/FOTOS WEB principal (1).mp4" autoplay muted loop ></video>  
-                    </div>
-                    <div className="video-overlay"></div>
-                    <div className="text-overvideo">
-                        <h1>
-                            <strong>TU PACK DE LOGOPEDIA</strong>
-                        </h1>
-                        </div>               
-                </section>
+               <SlidersPacks/>
                 <div className="lineal"></div>
             
                 <section className="video-content-container">
@@ -43,7 +32,7 @@ class  Packs extends Component {
                 <section className="table-packs">
                     <div className="packs">
                         <div className="pack-titulo">
-                            <img src={logo} alt="niña" width="100px" height="100px"/>
+                            <img src={logo} alt="logo" width="100px" height="100px"/>
                             <h4>Pack Premium</h4>
                             </div>
                             <div className="image1"><img src={mujerNina} alt="niña" width="45%" height="12%"/></div>
