@@ -8,7 +8,7 @@ class Header extends Component {
             <header>
                 <div className="barra">
                     <div className="text-icons">
-                        <h5>Logopeda especialista en</h5>
+                        <h5>Logopeda especialista</h5>
                         <a href="mailto:nipiologopedia@gmail.com" target="_blank" rel='noreferrer'><ion-icon name="mail-outline"></ion-icon></a>
                         <a href="https://api.whatsapp.com/send/?phone=351913557223&text=hola+me+gustar%C3%ADa+recibir+infomaci%C3%B3n+de+logopedia+online&app_absent=0
                         " target="_blank" rel='noreferrer'><ion-icon name="logo-whatsapp"></ion-icon></a>
