@@ -4,6 +4,7 @@ import logo from '../assets/images/logo ni pio  circulo turquesa.png';
 import mujerNina from '../assets/images/mujerNina.png';
 import ninoBeso from '../assets/images/nino-beso.png';
 import SlidersPacks from "./SliderPacks";
+import CardsPacks from "./CardsPacks";
 
 class  Packs extends Component {
 
@@ -28,6 +29,7 @@ class  Packs extends Component {
             
                     </div>
                 </section>
+                <CardsPacks/>
                     
                 <section className="table-packs">
                     <div className="packs">

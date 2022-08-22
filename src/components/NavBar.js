@@ -38,7 +38,7 @@ function NavBar() {
                 <Nav.Link href="/equipo">Equipo</Nav.Link>
                 <Nav.Link href="/packs">Pack logopedia</Nav.Link>
                 <Nav.Link href="/consultas">Consultas</Nav.Link>
-                <Nav.Link href="contacto">Contacto</Nav.Link>
+                <Nav.Link href="/contacto">Contacto</Nav.Link>
             </Nav>
             </Navbar.Collapse>
             <div className="logo">

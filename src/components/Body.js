@@ -43,19 +43,19 @@ class Body extends Component {
                     <div className="pack">
                         <img src={nina} alt="niña"/>
                         <div className="overlay">
-                            <a href="pack.php">PACK DE LOGOPEDIA</a>
+                            <a href="/packs">PACK DE LOGOPEDIA</a>
                         </div>
                     </div>
                     <div className="pack">
                         <img src={familia} alt=""/>
                         <div className="overlay">
-                            <a href="consultation.php">CONSULTAS</a>
+                            <a href="/consultas">CONSULTAS</a>
                         </div>
                     </div>
                     <div className="pack">
                         <img src={siguenos} alt=""/>
                         <div className="overlay">
-                            <a href="consultation.php">SÍGUENOS</a>
+                            <a href="/consultas">SÍGUENOS</a>
                         </div>
                     </div>
                 </div>
@@ -94,7 +94,7 @@ class Body extends Component {
                     </div>
                     
                     <div className="icons">
-                    <a href=""><img src={juego} alt=""/></a>
+                    <a href="/#"><img src={juego} alt=""/></a>
                     <h2>Logopedia a través del juego</h2>
                         <p>El juego en familia es la clave de nuestra intervención, todos los objetivos de rehabilitación logopédica se abordarán de forma lúdica,
                         teniendo muy en cuenta los intereses del peque.</p>
