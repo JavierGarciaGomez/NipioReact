@@ -6,6 +6,8 @@ import Footer from './components/Footer';
 import Equipo from "./components/Equipo";
 import NavBar from "./components/NavBar";
 import Packs from "./components/Packs";
+import Consultas from "./components/Consultas";
+import Contacto from "./components/Contacto";
 
 
 
@@ -23,6 +25,8 @@ class Router extends Component {
                     <Route path="/home" element={<Body/>}/>
                     <Route path="/equipo" element={<Equipo/>}/>
                     <Route path="/packs" element={<Packs/>}/>
+                    <Route path="/consultas" element={<Consultas/>}/>
+                    <Route path="/contacto" element={<Contacto/>}/>
                    
 
                     <Route component={Error}/>
