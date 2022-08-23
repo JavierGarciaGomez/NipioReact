@@ -48,16 +48,44 @@
   background-image: url('../images/nino.png');
   background-color: rgb(100, 100, 100);
   background-blend-mode: soft-light;
-  background-size: 100% 100%;
+ 
   background-attachment: fixed;
-  width: 100%;
+  max-width: 100%;
   height: 500px;
   top: 0;
 }
 
+@media only screen and (max-width: 768px) {
+  .body-menu {
+    background-image: url('../images/nino.png');
+    background-color: rgb(100, 100, 100);
+    background-blend-mode: soft-light;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .body-menu {
+    background-image: url('../images/nino.png');
+    background-color: rgb(100, 100, 100);
+    background-blend-mode: soft-light;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 50%;
+    height: 50%;
+    top: 0;
+  }
+}
+
 .consiste {
-  width: 100%;
-  height: 80%;
+  max-width: 100%;
+  max-height: 80%;
   margin-top: 80px;
   margin-bottom: 200;
   display: flex;
@@ -158,6 +186,7 @@
 
 .body-menu .banner .teraphy {
  margin-top: auto;
+ max-width: 100%;
 }
 
 .body-menu .banner .teraphy h2 {
@@ -211,19 +240,14 @@ padding-right: 5px;
 }
 
 .container-galery{
-  display: flex;
-  width: 85%;
-  margin: auto;
-  justify-content: space-around;
-  flex-wrap: wrap;
+ 
   border-radius: 3px;
   padding: 30px;
 }
 
 .container-galery .pack {
-  width: 27%;
+ 
   position: relative;
-  height: 250px;
   margin-bottom: 5px;
   box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
 }
@@ -264,21 +288,7 @@ padding-right: 5px;
   cursor: pointer;
 }
 
-@media screen and (max-width:1024px) {
-  .container-galery {
-     width: 95%; 
-  }
-}
 
-@media screen and (max-width:700px) {
-  .container-galery {
-     width: 90%; 
-  }
-
-  .container-galery .pack {
-      width: 48%;
-  }
-}
 
 /*Estilo apartados iconos*/
 .galery {

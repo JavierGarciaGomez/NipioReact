@@ -15,18 +15,20 @@ class Body extends Component {
 
         return(
         <div>
-            <section>
-                        <Slider
-                        title="NI PÍO_LOGOPEDIA"
-                        subtitle="ESPECIALISTAS EN LA COMUNICACIÓN"
-                        />
-                </section>
-            <section className="consiste">
-                <div className="consiste-logopedia">
+           
+            <Slider
+                title="NI PÍO_LOGOPEDIA"
+                subtitle="ESPECIALISTAS EN LA COMUNICACIÓN"
+            />
+        
+            <div className="container text-center mt-5">
+                <div className="row">
+                    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6 consiste-logopedia">
                     <h2>¿En qué consiste la Logopedia Online?</h2>
-                </div>
-                <div className="parr-consiste">
-                    <p>Ni Pío Logopedia está diseñado para ofrecer Servicio de Logopedia Online,
+                    </div>
+                    <div className="col-md-auto"></div>
+                    <div className="col parr-consiste">
+                    <p className="text-justify">Ni Pío Logopedia está diseñado para ofrecer Servicio de Logopedia Online,
                         somos conscientes que los peques cuando están en su hogar y en familia,
                         obtienen mejores resultados, que otros métodos de trabajos individuales. 
 
@@ -35,31 +37,37 @@ class Body extends Component {
                         Tras una entrevista inicial online y recogida de información. Valoramos el tipo
                         de intervención que más se ajuste a cada peque. Y establecemos un horario de seguimiento
                         que mejor se adapte a la rutina familiar.</p>
+                    </div>
                 </div>
-            </section>
-            
-            <section className="index-photo">
-                <div className="container-galery">
-                    <div className="pack">
-                        <img src={nina} alt="niña"/>
-                        <div className="overlay">
+                
+            </div>
+
+            <div class="container index-photo mt-5">
+            <div class="row container-galery justify-content-between">
+                <div class=" col-xs-2 col-md-5 col-lg-4 pack ">
+                    <img src={nina} className="img-fluid" alt="niña"/>
+                    <div className="overlay">
                             <a href="/packs">PACK DE LOGOPEDIA</a>
                         </div>
-                    </div>
-                    <div className="pack">
-                        <img src={familia} alt=""/>
-                        <div className="overlay">
-                            <a href="/consultas">CONSULTAS</a>
-                        </div>
-                    </div>
-                    <div className="pack">
-                        <img src={siguenos} alt=""/>
-                        <div className="overlay">
-                            <a href="/consultas">SÍGUENOS</a>
-                        </div>
+                </div>
+                <div class="col-xs-2 col-md-5 col-lg-4 pack">
+                    <img src={familia} alt="" className="img-fluid"/>
+                    <div className="overlay">
+                            <a href="/packs">PACK DE LOGOPEDIA</a>
                     </div>
                 </div>
-            </section>
+                <div class="col-xs-2 col-md-5 col-lg-4 pack">
+                    <img src={siguenos} alt="" className="img-fluid"/>
+                    <div className="overlay">
+                            <a href="/packs">PACK DE LOGOPEDIA</a>
+                    </div>
+                </div>
+           
+
+            </div>
+        </div>
+            
+    
             <section className="beneficios">
                 <div className="parr-ben">
                     <ul>
