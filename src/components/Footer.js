@@ -18,20 +18,20 @@ const Footer = () => {
                 </div>
                 <div className="box-footer ">
                     <NavLink to="/">Aviso Legal</NavLink>
-                    <a href="">Política de privacidad</a>
-                    <a href="">Política legal</a>
+                    <a href="/">Política de privacidad</a>
+                    <a href="/">Política legal</a>
                 </div>
                 <div className="box-footer-icons">
                     <div className="contact-footer">
                         <h2>Contacto</h2>
                     </div>
                     <div className="icons-footer">
-                        <a href="https://www.instagram.com/nipio_lopogopedia/" target="_blank"><IonIcon name="logo-instagram"/></a>
-                        <a href="https://www.youtube.com/" target="_blank"><IonIcon name="logo-youtube"/></a>
-                        <a href="https://www.tiktok.com/" target="_blank"><IonIcon name="logo-tiktok"/></a>
-                        <a href="mailto:nipiologopedia@gmail.com" target="_blank"><IonIcon name="mail-outline"/></a>
+                        <a href="https://www.instagram.com/nipio_lopogopedia/" target="_blank" rel='noreferrer'><IonIcon name="logo-instagram"/></a>
+                        <a href="https://www.youtube.com/" target="_blank" rel='noreferrer'><IonIcon name="logo-youtube"/></a>
+                        <a href="https://www.tiktok.com/" target="_blank" rel='noreferrer'><IonIcon name="logo-tiktok"/></a>
+                        <a href="mailto:nipiologopedia@gmail.com" target="_blank" rel='noreferrer'><IonIcon name="mail-outline"/></a>
                         <a href="https://api.whatsapp.com/send/?phone=351913557223&text=hola+me+gustar%C3%ADa+recibir+infomaci%C3%B3n+de+logopedia+online&app_absent=0
-                        " target="_blank"><IonIcon name="logo-whatsapp"/></a>
+                        " target="_blank" rel='noreferrer'><IonIcon name="logo-whatsapp"/></a>
                     </div>
                 </div>
             </div>
