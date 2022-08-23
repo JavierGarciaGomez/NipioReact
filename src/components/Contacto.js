@@ -44,10 +44,10 @@ class Contacto extends Component {
                         </div>
                         <div class="contact-whats">
                             <div class="icon-whats">
-                                <a href="https://api.whatsapp.com/send/?phone=351913557223&text=hola+me+gustar%C3%ADa+recibir+infomaci%C3%B3n+de+logopedia+online&app_absent=0"><img src={whatsapp} alt="whatsapp" width="70px" height="40px"/></a>
+                                <a href="https://api.whatsapp.com/send/?phone=351913557223&text=hola+me+gustar%C3%ADa+recibir+infomaci%C3%B3n+de+logopedia+online&app_absent=0" target="_blank" rel='noreferrer'><img src={whatsapp} alt="whatsapp" width="70px" height="40px"/></a>
                             </div>
                             <div class="link-whats">
-                                <a href="https://api.whatsapp.com/send/?phone=351913557223&text=hola+me+gustar%C3%ADa+recibir+infomaci%C3%B3n+de+logopedia+online&app_absent=0">¿Hablamos?</a>
+                                <a href="https://api.whatsapp.com/send/?phone=351913557223&text=hola+me+gustar%C3%ADa+recibir+infomaci%C3%B3n+de+logopedia+online&app_absent=0" target="_blank" rel='noreferrer'>¿Hablamos?</a>
                             </div>
                         </div>
                         <div class="contact-whats">
