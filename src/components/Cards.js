@@ -22,8 +22,7 @@ function Cards() {
         <Card.Body>
           <Card.Title>Card title</Card.Title>
           <Card.Text>
-            This card has supporting text below as a natural lead-in to
-            additional content.{' '}
+            content.{' '}
           </Card.Text>
         </Card.Body>
         <Card.Footer>
