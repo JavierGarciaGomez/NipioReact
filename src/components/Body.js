@@ -8,6 +8,7 @@ import juego from '../assets/images/LOGOPEDIA A TRAVÉS DEL JUEGO.png';
 import web from '../assets/images/FOTOS WEB principal.png';
 import 'bootstrap/dist/css/bootstrap.css';
 import Slider from "./Slider";
+import Cards from "./Cards";
 
 class Body extends Component {
 
@@ -84,6 +85,8 @@ class Body extends Component {
                 </div>
             
             </section>
+
+            <Cards/>
             
             <section className="galery">
                 <div className="icons-galery">
